@@ -53,13 +53,21 @@ li {
     margin-left: 580px;
     font-size: 36px;
 }
+.btn {
+    opacity: 0.8;
+    color: blanchedalmond;
+    border-radius: 10px;
+    display: inline-block;
+}
+.btn:hover {
+    opacity: 1;
+}
 .yes {
     background-color: #8d76ce;
     text-decoration: none;
-    color: blanchedalmond;
     padding: 12px 24px;
-    border-radius: 10px;
 }
+
 .contents p {
     text-align: center;
     font-size: 36px;
@@ -102,4 +110,24 @@ input.contact-submit {
     width: 315px;
     background-color: #8d76ce;
     margin-top: 20px;
+}
+.footer {
+    background-color: #8d76ce;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+    margin-top: 110px;
+}
+  
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+  
+.footer-list {
+    float: right;
+}
+  
+.footer-list li {
+    padding-bottom: 20px;
 }
